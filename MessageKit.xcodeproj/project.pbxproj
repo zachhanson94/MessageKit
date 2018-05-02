@@ -83,6 +83,7 @@
 		B7A03F731F866A06006AEF79 /* MessageKit+Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A03F701F866A06006AEF79 /* MessageKit+Availability.swift */; };
 		B7A03F751F866A06006AEF79 /* MessageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A03F721F866A06006AEF79 /* MessageKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A03F7B1F866B85006AEF79 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A03F7A1F866B85006AEF79 /* MessageCollectionViewCell.swift */; };
+		E9F5B3692099E9DA00CE9C86 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F5B3682099E9DA00CE9C86 /* UIImageView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,6 +189,7 @@
 		B7A03F711F866A06006AEF79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7A03F721F866A06006AEF79 /* MessageKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageKit.h; sourceTree = "<group>"; };
 		B7A03F7A1F866B85006AEF79 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E9F5B3682099E9DA00CE9C86 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +372,7 @@
 				B7A03F641F8669EB006AEF79 /* UICollectionView+Extensions.swift */,
 				B7A03F651F8669EB006AEF79 /* UIColor+Extensions.swift */,
 				B7A03F661F8669EB006AEF79 /* UIView+Extensions.swift */,
+				E9F5B3682099E9DA00CE9C86 /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				B7A03F6A1F8669EB006AEF79 /* UICollectionView+Extensions.swift in Sources */,
 				8962AC9C1F87ABC60030B058 /* MockMessage.swift in Sources */,
 				B7A03F611F8669CA006AEF79 /* MessagesDataSource.swift in Sources */,
+				E9F5B3692099E9DA00CE9C86 /* UIImageView+Extensions.swift in Sources */,
 				B7A03F6E1F8669EB006AEF79 /* NSAttributedString+Extensions.swift in Sources */,
 				B7A03F471F86694F006AEF79 /* MessageLabel.swift in Sources */,
 				B7A03F5F1F8669CA006AEF79 /* MessageLabelDelegate.swift in Sources */,

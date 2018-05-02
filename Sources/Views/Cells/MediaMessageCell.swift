@@ -58,6 +58,9 @@ open class MediaMessageCell: MessageCollectionViewCell {
         case .photo(let image):
             imageView.image = image
             playButtonView.isHidden = true
+        case .remotePhoto(let url):
+            imageView.downloadedFrom(url: url)
+            playButtonView.isHidden = true
         case .video(_, let image):
             imageView.image = image
             playButtonView.isHidden = false
